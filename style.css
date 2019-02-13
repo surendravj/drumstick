@@ -1,0 +1,67 @@
+body{
+    background-color: #1c819e;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    margin-top: 40px;
+    text-transform: capitalize;
+    font-family: 'Pacifico', cursive;
+}
+.row{
+    margin-top: 160px;
+}
+.drum{
+    border: 2px solid #000;
+    margin-right: 4px;
+    padding: 40px;
+    border-radius: 400px;
+    font-size:30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.footer-text{
+    margin-top: 40px;
+    text-decoration: underline;
+    font-family: 'Questrial', sans-serif;
+    color:#d9d9d9;
+    cursor: pointer;
+}
+.footer-text:hover{
+    color:#dee1ec;
+}
+button{
+    background: transparent;
+}
+button:focus{
+    outline: none;
+    outline-color:  #1c819e;
+}
+.fa-music{
+    font-size:70px;
+    /* position: fixed; */
+    color:hsl(197, 83%, 23%);
+    opacity: 0.5s;
+    color: #fff;
+}
+
+.fa-headphones{
+    position: absolute;
+     left: 45%;
+     font-size:80px;
+     color: #0a516d;
+}
+footer{
+    position: absolute;
+    bottom:0px;
+    left: 33%;
+    font-family: 'Questrial', sans-serif;
+    margin:0px autol; 
+}
+ 
+@media (min-width:200px) and (max-width:700px){
+    footer{
+       display: none;
+    }
+}
